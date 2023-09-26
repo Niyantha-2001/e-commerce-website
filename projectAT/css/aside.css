@@ -1,0 +1,85 @@
+aside{
+   
+    background: url(/assect/images/banner-bg.webp?auto=compress);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    padding: 100px;
+    background-size:100%;
+  }
+
+
+
+aside div{
+    width:400px;
+    text-align: center;
+}
+
+aside div h1 span {
+    color: orange;
+  }
+
+.Hamburger{
+  display: none;  
+
+
+}
+  
+/*Extra small devices */
+
+@media screen and (max-width:768px)  {
+  aside {
+    background-size: 10 100%;
+    padding: 60px 20px;
+  }
+
+  .ul_list li{
+    display: none;
+  }
+
+  .section i{
+    display:none
+  }
+  .Hamburger{
+    /* display: block;  */
+    padding:30px 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+  }
+
+  
+  .Hamburger i {
+    font-size: 30px; 
+    color: #0a0a0a;
+    cursor: pointer; 
+  }
+   
+
+  }
+
+
+
+ 
+
+
+
+ @media (max-width: 450px) {
+    aside {
+      background-size: 500px 300px;
+      padding: 60px 60px ;
+    }
+    .ul_list{
+      display: none;
+    }
+    .Hamburger i {
+      font-size: 30px; 
+      color: #0a0a0a;
+      cursor: pointer; 
+    }
+
+  } 
